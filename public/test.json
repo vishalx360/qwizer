@@ -1,0 +1,123 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which%20one%20of%20these%20was%20not%20a%20beach%20landing%20site%20in%20the%20Invasion%20of%20Normandy%3F",
+            "correct_answer": "Silver",
+            "incorrect_answers": [
+                "Gold",
+                "Juno",
+                "Sword"
+            ]
+        },
+        {
+            "category": "Science%3A%20Computers",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "All%20program%20codes%20have%20to%20be%20compiled%20into%20an%20executable%20file%20in%20order%20to%20be%20run.%20This%20file%20can%20then%20be%20executed%20on%20any%20machine.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who%20was%20the%20first%20president%20born%20in%20the%20independent%20United%20States%3F",
+            "correct_answer": "Martin%20Van%20Buren",
+            "incorrect_answers": [
+                "John%20Adams",
+                "George%20Washington",
+                "James%20Monroe%20"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In%20the%20movie%20Gremlins%2C%20after%20what%20time%20of%20day%20should%20you%20not%20feed%20Mogwai%3F",
+            "correct_answer": "Midnight",
+            "incorrect_answers": [
+                "Evening",
+                "Morning",
+                "Afternoon"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which%20race%20enjoys%20a%20glass%20of%20warm%20baghol%20in%20%22Star%20Trek%22%3F",
+            "correct_answer": "Klingon",
+            "incorrect_answers": [
+                "Vulcan",
+                "Human",
+                "Botha"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Television",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How%20many%20seasons%20did%20the%20Sci-Fi%20television%20show%20%22Stargate%20Atlantis%22%20have%3F",
+            "correct_answer": "5",
+            "incorrect_answers": [
+                "10",
+                "2",
+                "7"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What%20was%20the%20aim%20of%20the%20%22Umbrella%20Revolution%22%20in%20Hong%20Kong%20in%202014%3F",
+            "correct_answer": "Genuine%20universal%20suffrage",
+            "incorrect_answers": [
+                "Gaining%20Independence",
+                "Go%20back%20under%20British%20Rule",
+                "Lower%20taxes"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Books",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In%20the%20Magic%3A%20The%20Gathering%20universe%2C%20%20the%20Antiquities%2C%20Ice%20Age%2C%20and%20Alliances%20expansions%20take%20place%20on%20which%20continent%3F",
+            "correct_answer": "Terisiare",
+            "incorrect_answers": [
+                "Aerona",
+                "Shiv",
+                "Jamuraa"
+            ]
+        },
+        {
+            "category": "General%20Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which%20of%20the%20following%20is%20the%20IATA%20code%20for%20Manchester%20Airport%3F",
+            "correct_answer": "MAN",
+            "incorrect_answers": [
+                "EGLL",
+                "LHR",
+                "EGCC"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Music",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "A%20Caixa%20Malacacheta%20is%20what%20kind%20of%20musical%20instrument%20which%20is%20commonly%20used%20in%20Latin%20American%20music%3F",
+            "correct_answer": "Snare%20Drum",
+            "incorrect_answers": [
+                "Cow%20Bell",
+                "Bass%20Drum",
+                "Maraca"
+            ]
+        }
+    ]
+}

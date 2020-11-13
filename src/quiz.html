@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QWIZER</title>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="shortcut icon" href="/images/app_icons/icon-96x96.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/quiz.scss">
+</head>
+
+<body>
+    <div id="top_bar">
+        <a href="index.html">
+            <img src="./images/icons/arrow-left.png" alt="">
+        </a>
+        <div id="score_box">SCORE: <span id="score_ele">0</span></div>
+    </div>
+    <main style="display: none;" id="result_page">
+
+    </main>
+    <main id="quiz_page">
+        <section id="top">
+
+            <h2 id="question_number"><span id="num">0</span>/10</h2>
+            <div id="time_section">
+                <div id="progress">
+                    <div id="progress_bar"></div>
+                </div>
+                <!-- <div id="time_left">
+                    <p><span id="time">4</span> Seconds Left</p>
+                </div> -->
+            </div>
+
+            <div id="question_card">
+                <p id="question_type"></p>
+                <p id="question">Loading...</p>
+            </div>
+        </section>
+        <section id="bottom">
+            <div id="container">
+                <!-- <input type="checkbox" name="a" id="optionA">
+                <label for="optionA">
+                    <span class="option_index">a</span>
+                    <span class="option">Placeholder text</span>
+                </label>
+
+                <input type="checkbox" name="b" id="optionB">
+                <label for="optionB">
+                    <span class="option_index">b</span>
+                    <span class="option">Title text</span>
+                </label>
+
+                <input type="checkbox" name="c" id="optionC">
+                <label for="optionC">
+                    <span class="option_index">c</span>
+                    <span class="option">subheading text</span>
+                </label>
+
+                <input type="checkbox" name="d" id="optionD">
+                <label for="optionD">
+                    <span class="option_index">d</span>
+                    <span class="option">end text</span>
+                </label> -->
+            </div>
+            </div>
+        </section>
+    </main>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

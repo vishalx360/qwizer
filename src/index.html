@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QWIZER</title>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="shortcut icon" href="./images/app_icons/icon-96x96.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/home.scss">
+</head>
+
+<body>
+    <main id="home_page">
+        <img src="./images/app_icons/icon-152x152.png" alt="" srcset="">
+        <h2>QWIZER</h2>
+        <p>High-Score : <span id="score_ele"></span></p>
+        <form id="config">
+            <select name="difficulty" id="select">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <a class="btn" href="./quiz.html">START</a>
+        </form>
+        <p class="credits">QWIZER v0.1.2</p>
+        <p class="credits">Made By <a id="creator_link" href="https://www.github.com/vishalx360">Vishal Kumar</a></p>
+        <p class="credits">Quiz Data is Fetched From <a id="api_owner_link" href="https://opentdb.com/">opentdb</a> API
+        </p>
+
+    </main>
+    <script src="./home.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDUD0spWkZ9G4wjc9kFCnAdkrKXv9M31G4",
+            authDomain: "qwizer.firebaseapp.com",
+            databaseURL: "https://qwizer.firebaseio.com",
+            projectId: "qwizer",
+            storageBucket: "qwizer.appspot.com",
+            messagingSenderId: "694850752697",
+            appId: "1:694850752697:web:c5167ac7aee0366a00cb68",
+            measurementId: "G-KP7VP7DJGC"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</body>
+
+</html>

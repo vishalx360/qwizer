@@ -1,0 +1,26 @@
+{
+  "name": "qwizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.29.0"
+  },
+  "scripts": {
+    "start":"parcel src/index.html",
+    "build": "parcel build --experimental-scope-hoisting src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalx360/qwizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalx360/qwizer/issues"
+  },
+  "homepage": "https://github.com/vishalx360/qwizer#readme"
+}

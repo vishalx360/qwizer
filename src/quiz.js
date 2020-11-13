@@ -1,3 +1,5 @@
+import confetti from "./confetti";
+
 var question = document.getElementById("question");
 var question_type = document.getElementById("question_type");
 var num = document.getElementById("num");
@@ -82,6 +84,7 @@ function load(data, index) {
   }
   if (num.textContent == 10) {
     setTimeout(function () {
+      confetti.start();
       quiz_page.style.display = "none";
       result_page.innerHTML =
         "<p id='res'>You scored <p id='result_score'>" + score + "</p></p>";
@@ -104,7 +107,7 @@ function isOverflown(element) {
 
 function put_option(element, index) {
   document.getElementById("bottom").style.backgroundColor = "#0A0B0B";
-  letters = ["a", "b", "c", "d"];
+  const letters = ["a", "b", "c", "d"];
   // checkbox
   var ele_checkbox = document.createElement("input");
   ele_checkbox.type = "checkbox";

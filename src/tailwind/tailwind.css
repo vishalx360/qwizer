@@ -5,11 +5,7 @@
 }
 
 .btn:hover {
-    @apply bg-gray-800;
-}
-
-.container {
-    @apply flex flex-col items-center h-screen bg-gray-100 text-gray-900;
+    @apply bg-gray-800 shadow-xl;
 }
 
 @tailwind utilities;

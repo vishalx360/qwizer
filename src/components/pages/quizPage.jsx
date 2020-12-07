@@ -1,19 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./quizPage_styles.scss";
+import { MdArrowBack } from "react-icons/md";
+
 export default function quizPage() {
   return (
     <div className="h-screen">
       <div className="h-full bg-gray-400 w-screen flex flex-col justify-between">
-        <nav className="  py-2 px-5 w-full flex flex-row items-center justify-between">
-          <Link to="/">
-            <img src="page-icons/arrow-left.png" alt="" />
+        <nav className="quiz-nav  py-2 px-5 w-full flex flex-row items-center justify-between">
+          <Link className="mr-5 icon_btn" to="/">
+            <MdArrowBack size={"2em"} />
           </Link>
+          <h2 className="question_number">
+            <span className="num text-lg">0</span>/10
+          </h2>
           <div className="score_box">
-            Current score: <span className="score_ele">0</span>
+            Score: <span className="score_ele">0</span>
           </div>
         </nav>
         {/* top */}
-        <section className="p-5 bg-gray-300 text-center">
+        {/* <section className="p-5 bg-gray-300 text-center">
           <h2 className="question_number">
             <span className="num text-lg">0</span>/10
           </h2>
@@ -27,7 +33,7 @@ export default function quizPage() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* middle */}
         <section className="question_card h-full  w-full bg-white p-3 sm:px-5 md:px-8 xl:px-12 flex flex-col justify-center">

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function homepage() {
   return (
-    <div className="m-auto  p-2 flex flex-col items-center">
+    <div className="m-auto w-full h-screen p-2 flex flex-col justify-center items-center">
       <div className="w-26 h-26 my-5">
         <img
           className="imageShadow h-full w-full block object-cover"
@@ -11,23 +11,28 @@ export default function homepage() {
           alt="logo"
         />
       </div>
-      <h2 className="text-2xl mt-5 ">QWIZER</h2>
-      <p className="mt-5"> John Doe </p>
+      <h2 className="text-2xl mt-5 font-bold">QWIZER</h2>
+      <p className="my-5 text-center py-1 px-2 w-32 rounded-full bg-gray-100 text-gray-800 border-2 border-gray-500">
+        {" "}
+        John Doe{" "}
+      </p>
 
       <div>
-        <Link className="btn mt-1" to="/quiz">
+        <Link className="btn mt-1 bg-green-400 shadow" to="/quiz">
           Free For All
         </Link>
-
-        <Link className="btn mt-1" to="/host">
-          Host
+        <Link className="btn mt-4 bg-blue-400 shadow" to="/room">
+          Join Private Room
         </Link>
-        <Link className="btn mt-1" to="/room">
-          Join
+        <Link className="btn mt-4 bg-orange-400 shadow" to="/room">
+          Find Room
+        </Link>
+        <Link className="btn mt-4 bg-red-400 shadow" to="/host">
+          Host Room
         </Link>
       </div>
 
-      <p className="credits">v2.0.0</p>
+      <p className="credits mt-10">v2.0.0</p>
       <p className="credits">
         Made By{" "}
         <a className="text-green-600" href="https://www.github.com/vishalx360">

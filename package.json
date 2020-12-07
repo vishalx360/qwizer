@@ -3,10 +3,12 @@
   "version": "2.0.0",
   "private": true,
   "dependencies": {
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^4.0.0"
   },
   "scripts": {
     "build:tailwind": "postcss src/tailwind/tailwind.css -o src/tailwind/tailwind.output.css",
